@@ -1,0 +1,14 @@
+usr/lib/*/libaudiocdplugins.so.5
+usr/lib/*/libaudiocdplugins.so.5.*
+usr/lib/*/qt5/plugins/
+usr/share/config.kcfg/
+usr/share/doc/HTML/*/kcontrol/audiocd/
+usr/share/doc/HTML/*/kcontrol/kcmaudiocd/
+usr/share/doc/HTML/*/kioslave5/audiocd/
+usr/share/konqsidebartng/virtual_folders/services/audiocd.desktop
+usr/share/kservices5/audiocd.desktop
+usr/share/locale/
+usr/share/metainfo/org.kde.kio_audiocd.metainfo.xml
+usr/share/qlogging-categories5/kio_audiocd.categories
+usr/share/qlogging-categories5/kio_audiocd.renamecategories
+usr/share/solid/actions/solid_audiocd.desktop

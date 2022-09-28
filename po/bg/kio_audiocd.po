@@ -1,0 +1,122 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2007.
+# Yasen Pramatarov <yasen@lindeas.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_audiocd\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-01-18 02:40+0100\n"
+"PO-Revision-Date: 2010-06-18 19:20+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Радостин Раднев"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "radnev@yahoo.com"
+
+#: audiocd.cpp:74
+#, kde-format
+msgid "CDDB Information"
+msgstr "Данни от CDDB"
+
+#: audiocd.cpp:115
+#, kde-format
+msgid "Information"
+msgstr "Информация"
+
+#: audiocd.cpp:115
+#, kde-format
+msgid "Full CD"
+msgstr "Целия диск"
+
+#: audiocd.cpp:503
+#, kde-format
+msgid ""
+"You cannot specify a host with this protocol. Please use the audiocd:/ "
+"format instead."
+msgstr ""
+"Не може да задавате хост с този протокол. Моля, използвайте формата на "
+"протокола \"audiocd:/\"."
+
+#: audiocd.cpp:918
+#, kde-format
+msgctxt "The URL does not include a device name"
+msgid "Missing device specification"
+msgstr ""
+
+#: audiocd.cpp:928
+#, kde-format
+msgid ""
+"Device does not have read permissions for this account.  Check the read "
+"permissions on the device."
+msgstr ""
+"Нямате права за четене от устройството. Моля, проверете правата за четене от "
+"устройството."
+
+#: audiocd.cpp:930
+#, kde-format
+msgid ""
+"Device does not have write permissions for this account.  Check the write "
+"permissions on the device."
+msgstr ""
+"Нямате права за запис на устройството. Моля, проверете правата за запис на "
+"устройството."
+
+#: audiocd.cpp:934
+#, kde-format
+msgid ""
+"Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as "
+"yourself (not root). Do you see a track list? If not, make sure you have "
+"permission to access the CD device. If you are using SCSI emulation "
+"(possible if you have an IDE CD writer) then make sure you check that you "
+"have read and write permissions on the generic SCSI device, which is "
+"probably /dev/sg0, /dev/sg1, etc.. If it still does not work, try typing "
+"audiocd:/?device=/dev/sg0 (or similar) to tell kio_audiocd which device your "
+"CD-ROM is."
+msgstr ""
+"Неизвестна грешка. Ако имате диск в устройството, опитайте се да стартирате "
+"командата \"cdparanoia -vsQ\" като обикновен потребител, а не като "
+"администратор. Ако не виждате списък на пътечките, трябва да проверите дали "
+"имате права за достъп до компактдисковото устройство."
+
+#: audiocd.cpp:1007
+#, kde-format
+msgid "AudioCD: Disk damage detected on this track, risk of data corruption."
+msgstr ""
+"Установено е повреждане на диска на пътечката, което може да доведе то "
+"загуба на данни."
+
+#: audiocd.cpp:1013
+#, kde-format
+msgid "Error reading audio data for %1 from the CD"
+msgstr "Грешка при четене на аудио данните за %1 от аудио диска"
+
+#: audiocd.cpp:1023 audiocd.cpp:1101
+#, kde-format
+msgid "Could not read %1: encoding failed"
+msgstr "Грешка при четене на %1: грешно кодиране"
+
+#: audiocd.cpp:1233
+#, kde-format
+msgid "Track %1"
+msgstr "Песен %1"
+
+#~ msgid "Protocol name"
+#~ msgstr "Протокол"
+
+#~ msgid "Socket name"
+#~ msgstr "Сокет"
